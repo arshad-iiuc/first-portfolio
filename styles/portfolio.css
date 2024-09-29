@@ -9,6 +9,9 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -29,6 +32,16 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
 }
 /* Nav bar */
 nav{
@@ -79,4 +92,24 @@ nav ul{
 .banner-profile-pic{
     height: 676px;
     width: 584px;
+}
+
+/* Main styles */
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.about{
+    border-radius: 5px;
+    padding: 131px, 151px;
+    text-align: center;
+    margin-top: 131px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description    
+{
+    font-weight: 600;
 }
