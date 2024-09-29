@@ -25,7 +25,11 @@
     border-radius: 5%;
     border: none;
 }
-
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* Nav bar */
 nav{
     display: flex;
@@ -36,6 +40,7 @@ nav{
 .nav-title{
     font-weight: bolder;
     font-size: 45px;
+    padding-left: 230px;
 }
 nav ul li{
     list-style: none;
@@ -51,4 +56,27 @@ nav ul a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+}
+.banner-content{
+    max-width: 580px;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 700;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-pic{
+    height: 676px;
+    width: 584px;
 }
